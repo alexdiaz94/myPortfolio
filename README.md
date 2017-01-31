@@ -1,6 +1,6 @@
 # My Portfolio
 
-One Paragraph of project description goes here
+Biography page about me and my projects and extras. 
 
 ## Getting Started
 
