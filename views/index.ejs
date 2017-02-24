@@ -4,12 +4,12 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
   <title>A.Diaz</title>
-
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
   <link href="stylesheets/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="stylesheets/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
 
 </head>
 <body>
@@ -17,50 +17,53 @@
     <div class="nav-wrapper container">
       <a id="logo-container" href="#" class="brand-logo">Alexander Diaz</a>
       <ul id="dropdown1" class="dropdown-content">
-      <li><a href="#!" class="center blue-text">Project1</a></li>
-      <li class="divider"></li>
-      <li><a href="#!" class="center blue-text">Project2</a></li>
-      <li class="divider"></li>
-      <li><a href="#!" class="center blue-text">Project3</a></li>
+       <li><a href="#!" class="center blue-text">Project1</a></li>
+       <li class="divider"></li>
+       <li><a href="#!" class="center blue-text">Project2</a></li>
+       <li class="divider"></li>
+       <li><a href="#!" class="center blue-text">Project3</a></li>
     </ul>
     <ul class="right hide-on-med-and-down">
       <!-- Dropdown Trigger -->
       <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Menu<i class="material-icons right">arrow_drop_down</i></a></li>
     </ul>
       <!-- mobile nav bar -->
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="#∫">Menu Links</a></li>
-        <li><a href="#∫">Project 1</a></li>
-        <li><a href="#∫">Project 2</a></li>
-        <li><a href="#!">Project 3</a></li>
-        <li><a href="#!">Project 4</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul id="slide-out" class="side-nav">
+    <li><div class="userView">
+      <div class="background">
+        <img src="images/sunrise.jpg">
+      </div>
+      <a href="#!user"><img class="circle" src="images/cityselfportrait.jpg"></a>
+      <a href="#!name"><span class="white-text name">Alex Diaz</span></a>
+      <a href="#!email"><i class="medium material-icons">email</i><span class="white-text email">alexdiaz094@gmail.com</span></a>
+    </div></li>
+    <li><a href="#!"><i class="material-icons">assignment</i>First Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a href="#!"><i class="material-icons">assignment</i>Second Link</a></li>
+    <li><div class="divider"></div></li>
+    <li><a class="waves-effect" href="#!"><i class="material-icons">assignment</i>Third Link</a></li>
+  </ul>
+  <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+<!-- begin parallax -->
   <div id="index-banner" class="header parallax-container">
     <div class="section">
       <div class="container">
         <br><br>
         <h1 class="center white-text text-lighten-2"></h1>
         <div class="row center">
-          <h5 class="col s12 light">Technology is nothing. What’s important is that you have a faith in people,
-          that they’re basically good and smart, and if you give them tools,
-          they’ll do wonderful things with them.<br>
-          – Steve Jobs</h5>
+          <h5 class="col s12 light">Getting information off the Internet is like taking a drink from a fire hydrant.
+            – Mitchell Kapor<br></h5>
         </div>
         <!-- <div class="row center">
           <a href="#!" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
         </div> -->
         <br><br>
-
       </div>
-    </div>
+     </div>
     <div class="parallax"><img src="./images/background1.jpg" alt="NYC skyline"></div>
-  </div>
-
-
+   </div>
   <div class="container">
     <div class="section">
 
@@ -70,47 +73,38 @@
           <div class="icon-block">
             <h2 class="center blue-text"><i class="material-icons">flash_on</i></h2>
             <h5 class="center">Skills</h5>
-
             <p class="light">During my time with General Assembly, I developed many new web technologies. Some of these
-            technologies include: HTML, CSS, Javascript, React, Express, PostgreSQL, Node, npm</p>
+            technologies include: HTML, CSS, Javascript, React, Express, PostgreSQL, Node, npm, Ruby, MongoDB, Firebase, and APIs</p>
           </div>
         </div>
-
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center blue-text"><i class="material-icons">group</i></h2>
             <h5 class="center">Personal Hobbies</h5>
-
-            <p class="light">Lorem ipsum In consequat nulla ut exercitation labore esse incididunt tempor proident Excepteur sed Excepteur nostrud incididunt velit nostrud fugiat ut.</p>
+            <p class="light">Besides indulging myself with latest technology trends and toys. I am a devoted Dad, family man, great friend, avid sports fan and movie fan. At times, I enjoy upgrading computers as a hobby and relieving some stress at the gym.</p>
           </div>
         </div>
-
         <div class="col s12 m4">
           <div class="icon-block">
             <h2 class="center blue-text"><i class="material-icons">settings</i></h2>
             <h5 class="center">Projects Description</h5>
-
-            <p class="light">We have provided detailed documentation as well as specific code examples to help new users get started. We are also always open to feedback and can answer any questions a user may have about Materialize.</p>
+            <p class="light">Several of my personal projects are linked on this page in order to show off my progress when I started to learn to code to where I am now. Most of these projects were used with different Javascript frameworks</p>
           </div>
         </div>
       </div>
-
     </div>
   </div>
-
-
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
           <h5 class="header col s12 light">It has become appallingly obvious that our technology has exceeded our humanity.
             – Albert Einstein</h5>
-        </div>
       </div>
+     </div>
     </div>
-    <div class="parallax"><img src="./images/background2.jpg" alt="CSS coding"></div>
+   <div class="parallax"><img src="./images/background2.jpg" alt="CSS coding"></div>
   </div>
-
   <div class="container">
     <div class="section">
 <!-- brand statement -->
@@ -121,23 +115,22 @@
           <p class="left-align light">Experience in supervising projects, coordinating, technical research and problem solving with heavy customer service interaction in organization levels. As well as established operations leveraging expertise in organization, computer networking, and problem solving to provide exceptional user support and assistance in resolving conflict. Also have the ability to create cohesiveness within teams, and motivational skills to drive results in team performance above individual ability levels. On the technology level I possess the foundation skills of a Web Developer. These skills include HTML, CSS, JavaScript, React, Express, PostgreSQL, Node.js, npm, GIT, MongoDB, and API’s. All these skills assisted in creating several projects for General Assembly. Follow the Project links on page to take a peek.</p>
         </div>
       </div>
-
     </div>
   </div>
-
-
+<!-- end of parallax -->
   <div class="parallax-container valign-wrapper">
     <div class="section no-pad-bot">
       <div class="container">
         <div class="row center">
-          <h5 class="header col s12 light">Getting information off the Internet is like taking a drink from a fire hydrant.
-            – Mitchell Kapor</h5>
+          <h5 class="header col s12 light">Technology is nothing. What’s important is that you have a faith in people,
+          that they’re basically good and smart, and if you give them tools,
+          they’ll do wonderful things with them. -Steve Jobs</h5>
         </div>
-      </div>
+     </div>
     </div>
-    <div class="parallax"><img src="./images/background3.jpg" alt="Macbook keyboard"></div>
+   <div class="parallax"><img src="./images/background3.jpg" alt="Macbook keyboard"></div>
   </div>
-
+<!-- FOOTER -->
   <footer class="page-footer light-blue accent">
     <div class="container">
       <div class="row">
@@ -147,20 +140,18 @@
           <a href="mailto:alexdiaz094@gmail.com?Subject=Hello"
           target="_top"><br><i class="medium material-icons white-text">email</i></a>
           </p>
-
-        </div>
-        <div class="col l3 s12">
+          </div>
+          <div class="col l3 s12">
           <h5 class="white-text">Lets Connect</h5>
           <ul>
             <li><a class="socicon-github white-text" href="https://github.com/alexdiaz94"> GitHub</a></li>
             <li><a class="socicon-linkedin white-text" href="https://www.linkedin.com/in/alexdiaz94"> LinkedIn</a></li>
             <li><a class="socicon-twitter white-text" href="https://twitter.com/alexdiaz094"> Twitter</a></li>
             <li><a class="socicon-reddit white-text" href="https://www.reddit.com/user/alexdiaz94/"> reddit</a></li>
-
           </ul>
         </div>
         <div class="col l3 s12">
-          <h5 class="white-text">Projects</h5>
+         <h5 class="white-text">Projects</h5>
           <ul>
             <li><a class="white-text" href="#!">Project 1</a></li>
             <li><a class="white-text" href="#!">Project 2</a></li>
@@ -169,20 +160,17 @@
           </ul>
         </div>
       </div>
-    </div>
+     </div>
     <div class="footer-copyright">
-      <div class="container">
+    <div class="container">
       © 2017 Copyright Made by <a class="grey-text text-lighten-3" href="#">Alex Diaz</a>
-      </div>
     </div>
+   </div>
   </footer>
 
-
   <!--  Scripts-->
-
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-
-  </body>
+ </body>
 </html>
